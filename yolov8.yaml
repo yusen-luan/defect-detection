@@ -1,0 +1,13 @@
+# YOLOv8 Dataset Configuration
+# Dataset root directory
+path: ./data
+
+# Train/val images (relative to 'path')
+train: images/train
+val: images/val
+
+# Classes - update class names as needed for your defect detection task
+names:
+  0: CLIPPED_STONE
+  1: RUST
+
